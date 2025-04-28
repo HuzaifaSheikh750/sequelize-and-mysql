@@ -29,6 +29,8 @@ const generateToken = (user) => {
   );
 };
 
+// Verify JWT token
+
 const verifyToken = (token) => {
   return jwt.verify(token, jwtConfig.secret, {
     issuer: jwtConfig.issuer,
