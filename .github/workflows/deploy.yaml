@@ -3,7 +3,7 @@ name: Ci/CD for Node App
 on:
   push:
     branches: [main]
-  workflows-dispatch:
+  workflow-dispatch:
 
 permissions:
   contents: write
